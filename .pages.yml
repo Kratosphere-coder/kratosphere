@@ -1,0 +1,30 @@
+media:
+  input: /
+  output: /
+
+content:
+  - name: pages
+    label: Pages du site
+    type: collection
+    path: contenu/pages
+    filename: "{primary}.md"
+    fields:
+      - name: title
+        label: Titre
+        type: string
+
+      - name: description
+        label: Texte
+        type: text
+
+      - name: image
+        label: Photo
+        type: image
+
+      - name: youtube
+        label: Lien YouTube
+        type: string
+
+      - name: body
+        label: Contenu
+        type: rich-text
