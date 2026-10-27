@@ -1,1 +1,150 @@
+/* RESET */
+ 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+ 
+html{
+scroll-behavior:smooth;
+}
+ 
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:#f5f7fa;
+color:#333;
+}
+ 
+/* MENU */
+ 
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#102a43;
+box-shadow:0 2px 10px rgba(0,0,0,0.2);
+z-index:1000;
+}
+ 
+.navbar{
+max-width:1400px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+}
+ 
+.logo{
+color:#ffd700;
+font-size:1.8rem;
+font-weight:900;
+letter-spacing:3px;
+}
+ 
+.menu{
+list-style:none;
+display:flex;
+gap:30px;
+}
+ 
+.menu a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+ 
+.menu a:hover{
+color:#ffd700;
+}
+ 
+/* BANNIÈRE */
+ 
+.hero{
+height:100vh;
+background:linear-gradient(
+rgba(16,42,67,0.85),
+rgba(16,42,67,0.85)
+);
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+ 
+.hero h1{
+font-size:5rem;
+color:#ffd700;
+margin-bottom:15px;
+}
+ 
+.hero p{
+font-size:1.5rem;
+}
+ 
+/* SECTIONS */
+ 
+.section{
+min-height:100vh;
+padding:120px 50px;
+}
+ 
+.section:nth-child(even){
+background:white;
+}
+ 
+.section:nth-child(odd){
+background:#edf2f7;
+}
+ 
+.section h2{
+color:#102a43;
+margin-bottom:25px;
+font-size:2.5rem;
+}
+ 
+.section p{
+max-width:900px;
+line-height:1.8;
+font-size:1.1rem;
+}
+ 
+/* FOOTER */
+ 
+footer{
+background:#102a43;
+color:white;
+text-align:center;
+padding:25px;
+}
+ 
+/* MOBILE */
+ 
+@media (max-width: 900px){
+ 
+.navbar{
+flex-direction:column;
+gap:15px;
+}
+ 
+.menu{
+flex-wrap:wrap;
+justify-content:center;
+}
+ 
+.hero h1{
+font-size:3rem;
+}
+ 
+.hero p{
+font-size:1.1rem;
+}
+ 
+}
 
+📁 Structure de ton dépôt GitHub Pages :
