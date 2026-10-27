@@ -1,249 +1,172 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Kratosphère : comprendre la démocratie, explorer la création monétaire et découvrir des outils pour participer au débat citoyen.">
-  <title>Kratosphère — Comprendre, débattre, agir</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="site-header">
-    <a class="brand" href="#accueil" aria-label="Kratosphère, accueil">
-      <span class="brand-icon">K</span>
-      <span>Kratosphère</span>
-    </a>
-
-    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
-
-    <nav class="main-nav" aria-label="Navigation principale">
-      <a href="#democratie">Démocratie</a>
-      <a href="#monnaie">Création monétaire</a>
-      <a href="#outils">Outils</a>
-      <a href="#liens">Liens</a>
-      <a class="nav-contact" href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" id="accueil">
-      <div class="hero-content">
-        <p class="eyebrow"><span class="live-dot"></span> Un espace citoyen indépendant</p>
-        <h1>La démocratie,<br><span>ça se comprend.</span></h1>
-        <p class="hero-text">
-          Des idées, des repères et des outils pour mieux comprendre les règles
-          du jeu collectif — et prendre part à la conversation.
-        </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#democratie">Explorer les sujets <span>↗</span></a>
-          <a class="button button-secondary" href="#apropos">Découvrir Kratosphère</a>
-        </div>
-        <p class="hero-note">Indépendant · Pédagogique · Ouvert à toutes et tous</p>
-      </div>
-
-      <div class="hero-art" aria-hidden="true">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="orbit orbit-three"></div>
-        <div class="center-symbol">
-          <span>κ</span>
-          <small>LE POUVOIR<br>EN PARTAGE</small>
-        </div>
-        <div class="orbit-label label-one">Comprendre</div>
-        <div class="orbit-label label-two">Débattre</div>
-        <div class="orbit-label label-three">Participer</div>
-      </div>
-
-      <div class="hero-bottom">
-        <span>LE POUVOIR SE QUESTIONNE</span>
-        <span class="hero-bottom-line"></span>
-        <span>LES IDÉES SE PARTAGENT</span>
-      </div>
-    </section>
-
-    <section class="intro section-wrap" id="apropos">
-      <div class="section-kicker">01 / NOTRE APPROCHE</div>
-      <div>
-        <h2>Moins de bruit.<br><span>Plus de compréhension.</span></h2>
-        <p class="intro-copy">
-          Kratosphère est un espace de découverte consacré à la démocratie et
-          aux questions qui façonnent notre vie collective. Ici, on explique
-          les notions, on distingue les faits des opinions et on encourage
-          le débat respectueux.
-        </p>
-        <p class="independence-note">
-          <span class="check-icon">✓</span>
-          Kratosphère n’est affilié à aucun parti politique.
-        </p>
-      </div>
-    </section>
-
-    <section class="topics section-wrap" id="democratie">
-      <div class="section-heading">
-        <div>
-          <div class="section-kicker">02 / LES SUJETS</div>
-          <h2>Des questions<br>qui nous concernent.</h2>
-        </div>
-        <p>Des contenus accessibles pour se faire une idée, poser de meilleures questions et aller plus loin.</p>
-      </div>
-
-      <div class="topic-grid">
-        <a class="topic-card democracy-card" href="#democratie-detail">
-          <div class="card-top"><span class="topic-number">01</span><span class="card-arrow">↗</span></div>
-          <div class="topic-icon">◎</div>
-          <p class="card-label">LES BASES</p>
-          <h3>La démocratie</h3>
-          <p>Ses principes, ses institutions et les différentes façons d’y participer.</p>
-          <span class="text-link">Découvrir le sujet <span>→</span></span>
-        </a>
-
-        <a class="topic-card money-card" href="#monnaie">
-          <div class="card-top"><span class="topic-number">02</span><span class="card-arrow">↗</span></div>
-          <div class="topic-icon">€</div>
-          <p class="card-label">ÉCONOMIE & SOCIÉTÉ</p>
-          <h3>Création monétaire</h3>
-          <p>Comprendre d’où vient la monnaie et comment elle circule dans l’économie.</p>
-          <span class="text-link">Découvrir le sujet <span>→</span></span>
-        </a>
-
-        <a class="topic-card tools-card" href="#outils">
-          <div class="card-top"><span class="topic-number">03</span><span class="card-arrow">↗</span></div>
-          <div class="topic-icon">✳</div>
-          <p class="card-label">PASSER À L’ACTION</p>
-          <h3>Outils citoyens</h3>
-          <p>Des ressources pour s’informer, dialoguer et participer à la vie publique.</p>
-          <span class="text-link">Découvrir les outils <span>→</span></span>
-        </a>
-      </div>
-    </section>
-
-    <section class="feature-section" id="democratie-detail">
-      <div class="feature-inner section-wrap">
-        <div class="feature-visual">
-          <div class="visual-circle circle-large"></div>
-          <div class="visual-circle circle-small"></div>
-          <span class="visual-mark">?</span>
-          <span class="visual-caption">GARDER L’ESPRIT OUVERT</span>
-        </div>
-        <div class="feature-copy">
-          <div class="section-kicker">UNE DÉMOCRATIE VIVANTE</div>
-          <h2>Comprendre les règles,<br>c’est déjà participer.</h2>
-          <p>
-            Voter est important, mais la vie démocratique ne s’arrête pas aux
-            élections. S’informer, échanger des arguments, interpeller ses
-            représentants ou contribuer à une initiative locale : il existe
-            plusieurs manières de prendre part aux décisions collectives.
-          </p>
-          <a class="button button-light" href="#outils">Voir les outils citoyens <span>↗</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="money-section section-wrap" id="monnaie">
-      <div class="money-copy">
-        <div class="section-kicker">03 / ÉCONOMIE & MONNAIE</div>
-        <h2>La monnaie,<br>elle est créée<br><span>comment ?</span></h2>
-        <p>
-          La création monétaire peut sembler abstraite. Pourtant, elle touche
-          au crédit, aux banques et à l’activité économique. Notre objectif :
-          poser les bases clairement, sans raccourci ni jargon inutile.
-        </p>
-        <a class="text-link" href="#contact">Proposer une question <span>→</span></a>
-      </div>
-      <div class="money-facts">
-        <div class="fact-card">
-          <span class="fact-number">01</span>
-          <div><h3>Les notions clés</h3><p>Monnaie, crédit, banque centrale : posons les définitions.</p></div>
-        </div>
-        <div class="fact-card">
-          <span class="fact-number">02</span>
-          <div><h3>Les mécanismes</h3><p>Suivons les grandes étapes de la création et de la circulation monétaire.</p></div>
-        </div>
-        <div class="fact-card">
-          <span class="fact-number">03</span>
-          <div><h3>Les débats</h3><p>Repérons les questions discutées et les points de vue différents.</p></div>
-        </div>
-        <p class="disclaimer">Contenus à visée pédagogique : ils ne constituent pas un conseil financier.</p>
-      </div>
-    </section>
-
-    <section class="tools-section" id="outils">
-      <div class="section-wrap">
-        <div class="section-heading">
-          <div>
-            <div class="section-kicker">04 / BOÎTE À OUTILS</div>
-            <h2>Pour aller du débat<br>à la participation.</h2>
-          </div>
-          <p>Quelques pistes pour approfondir et agir à votre échelle.</p>
-        </div>
-        <div class="tools-grid">
-          <article class="tool-item">
-            <span class="tool-icon">↗</span><h3>S’informer</h3>
-            <p>Comparer les sources, vérifier une affirmation et comprendre le contexte.</p>
-          </article>
-          <article class="tool-item">
-            <span class="tool-icon">◎</span><h3>Débattre</h3>
-            <p>Écouter les arguments, clarifier les désaccords et dialoguer avec respect.</p>
-          </article>
-          <article class="tool-item">
-            <span class="tool-icon">✳</span><h3>Participer</h3>
-            <p>Découvrir les formes de participation citoyenne près de chez vous.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="links-section section-wrap" id="liens">
-      <div class="links-heading">
-        <div class="section-kicker">05 / POUR APPROFONDIR</div>
-        <h2>Des ressources<br><span>à explorer.</span></h2>
-        <p>Retrouvez des ressources utiles pour mieux comprendre les institutions et les enjeux collectifs.</p>
-      </div>
-      <div class="link-list">
-        <div class="link-row"><span class="link-index">01</span><div><h3>Institutions démocratiques</h3><p>Repères sur les institutions et leur fonctionnement.</p></div><span class="link-soon">À COMPLÉTER</span></div>
-        <div class="link-row"><span class="link-index">02</span><div><h3>Éducation aux médias</h3><p>Outils pour évaluer l’information et croiser les sources.</p></div><span class="link-soon">À COMPLÉTER</span></div>
-        <div class="link-row"><span class="link-index">03</span><div><h3>Économie & monnaie</h3><p>Ressources pédagogiques pour approfondir les notions économiques.</p></div><span class="link-soon">À COMPLÉTER</span></div>
-      </div>
-      <p class="links-note">Les liens externes seront ajoutés après vérification de leur fiabilité et de leur neutralité.</p>
-    </section>
-
-    <section class="contact-section" id="contact">
-      <div class="contact-inner section-wrap">
-        <div>
-          <div class="section-kicker">06 / CONTACT</div>
-          <h2>Une question,<br>une idée, un retour ?</h2>
-          <p>Kratosphère se construit aussi grâce aux échanges. Écrivez-nous pour proposer un sujet ou partager une remarque.</p>
-        </div>
-        <a class="button button-primary contact-button" href="mailto:contact@kratosphere.example">
-          Écrire à Kratosphère <span>↗</span>
-        </a>
-      </div>
-      <p class="contact-small">Remplacez cette adresse par votre adresse e-mail avant la publication du site.</p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <a class="brand footer-brand" href="#accueil"><span class="brand-icon">K</span><span>Kratosphère</span></a>
-    <p>Comprendre · Débattre · Participer</p>
-    <span class="footer-note">Un espace indépendant, sans affiliation politique.</span>
-    <span class="copyright">© 2026 Kratosphère</span>
-  </footer>
-
-  <script>
-    const toggle = document.querySelector(".menu-toggle");
-    const nav = document.querySelector(".main-nav");
-
-    toggle.addEventListener("click", () => {
-      const isOpen = nav.classList.toggle("is-open");
-      toggle.setAttribute("aria-expanded", isOpen);
-    });
-
-    nav.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        nav.classList.remove("is-open");
-        toggle.setAttribute("aria-expanded", "false");
-      });
-    });
-  </script>
-</body>
-</html>
+<!DOCTYPE html> |
+| <html lang="fr"> |
+| <head> |
+|   <meta charset="UTF-8"> |
+|   <meta name="viewport" content="width=device-width, initial-scale=1.0"> |
+|   <meta name="description" content="Kratosphère : comprendre la démocratie, explorer la création monétaire et découvrir des outils citoyens."> |
+|   <title>Kratosphère — Comprendre, débattre, agir</title> |
+|   <link rel="stylesheet" href="style.css"> |
+| </head> |
+| <body> |
+|   <header class="site-header"> |
+|     <a class="brand" href="#accueil" aria-label="Kratosphère, accueil"> |
+|       <span class="brand-icon">K</span><span>Kratosphère</span> |
+|     </a> |
+|     <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button> |
+|     <nav class="main-nav" aria-label="Navigation principale"> |
+|       <a href="#democratie">Démocratie</a> |
+|       <a href="#monnaie">Création monétaire</a> |
+|       <a href="#outils">Outils</a> |
+|       <a href="#liens">Liens</a> |
+|       <a class="nav-contact" href="#contact">Contact</a> |
+|     </nav> |
+|   </header> |
+| |
+|   <main> |
+|     <section class="hero" id="accueil"> |
+|       <div class="hero-content"> |
+|         <p class="eyebrow"><span class="live-dot"></span> Un espace citoyen indépendant</p> |
+|         <h1>La démocratie,<br><span>ça se comprend.</span></h1> |
+|         <p class="hero-text">Des idées, des repères et des outils pour mieux comprendre les règles du jeu collectif — et prendre part à la conversation.</p> |
+|         <div class="hero-actions"> |
+|           <a class="button button-primary" href="#democratie">Explorer les sujets <span>↗</span></a> |
+|           <a class="button button-secondary" href="#apropos">Découvrir Kratosphère</a> |
+|         </div> |
+|         <p class="hero-note">Indépendant · Pédagogique · Ouvert à toutes et tous</p> |
+|       </div> |
+|       <div class="hero-art" aria-hidden="true"> |
+|         <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div> |
+|         <div class="center-symbol"><span>κ</span><small>LE POUVOIR<br>EN PARTAGE</small></div> |
+|         <div class="orbit-label label-one">Comprendre</div> |
+|         <div class="orbit-label label-two">Débattre</div> |
+|         <div class="orbit-label label-three">Participer</div> |
+|       </div> |
+|       <div class="hero-bottom"><span>LE POUVOIR SE QUESTIONNE</span><span class="hero-bottom-line"></span><span>LES IDÉES SE PARTAGENT</span></div> |
+|     </section> |
+| |
+|     <section class="intro section-wrap" id="apropos"> |
+|       <div class="section-kicker">01 / NOTRE APPROCHE</div> |
+|       <div> |
+|         <h2>Moins de bruit.<br><span>Plus de compréhension.</span></h2> |
+|         <p class="intro-copy">Kratosphère est un espace de découverte consacré à la démocratie et aux questions qui façonnent notre vie collective. Ici, on explique les notions, on distingue les faits des opinions et on encourage le débat respectueux.</p> |
+|         <p class="independence-note"><span class="check-icon">✓</span> Kratosphère n’est affilié à aucun parti politique.</p> |
+|       </div> |
+|     </section> |
+| |
+|     <section class="topics section-wrap" id="democratie"> |
+|       <div class="section-heading"> |
+|         <div><div class="section-kicker">02 / LES SUJETS</div><h2>Des questions<br>qui nous concernent.</h2></div> |
+|         <p>Des contenus accessibles pour se faire une idée, poser de meilleures questions et aller plus loin.</p> |
+|       </div> |
+|       <div class="topic-grid"> |
+|         <a class="topic-card democracy-card" href="#democratie-detail"> |
+|           <div class="card-top"><span class="topic-number">01</span><span class="card-arrow">↗</span></div> |
+|           <div class="topic-icon">◎</div><p class="card-label">LES BASES</p><h3>La démocratie</h3> |
+|           <p>Ses principes, ses institutions et les différentes façons d’y participer.</p> |
+|           <span class="text-link">Découvrir le sujet <span>→</span></span> |
+|         </a> |
+|         <a class="topic-card money-card" href="#monnaie"> |
+|           <div class="card-top"><span class="topic-number">02</span><span class="card-arrow">↗</span></div> |
+|           <div class="topic-icon">€</div><p class="card-label">ÉCONOMIE & SOCIÉTÉ</p><h3>Création monétaire</h3> |
+|           <p>Comprendre d’où vient la monnaie et comment elle circule dans l’économie.</p> |
+|           <span class="text-link">Découvrir le sujet <span>→</span></span> |
+|         </a> |
+|         <a class="topic-card tools-card" href="#outils"> |
+|           <div class="card-top"><span class="topic-number">03</span><span class="card-arrow">↗</span></div> |
+|           <div class="topic-icon">✳</div><p class="card-label">PASSER À L’ACTION</p><h3>Outils citoyens</h3> |
+|           <p>Des ressources pour s’informer, dialoguer et participer à la vie publique.</p> |
+|           <span class="text-link">Découvrir les outils <span>→</span></span> |
+|         </a> |
+|       </div> |
+|     </section> |
+| |
+|     <section class="feature-section" id="democratie-detail"> |
+|       <div class="feature-inner section-wrap"> |
+|         <div class="feature-visual" aria-hidden="true"> |
+|           <div class="visual-circle circle-large"></div><div class="visual-circle circle-small"></div> |
+|           <span class="visual-mark">?</span><span class="visual-caption">GARDER L’ESPRIT OUVERT</span> |
+|         </div> |
+|         <div class="feature-copy"> |
+|           <div class="section-kicker">UNE DÉMOCRATIE VIVANTE</div> |
+|           <h2>Comprendre les règles,<br>c’est déjà participer.</h2> |
+|           <p>Voter est important, mais la vie démocratique ne s’arrête pas aux élections. S’informer, échanger des arguments, interpeller ses représentants ou contribuer à une initiative locale : il existe plusieurs manières de prendre part aux décisions collectives.</p> |
+|           <a class="button button-light" href="#outils">Voir les outils citoyens <span>↗</span></a> |
+|         </div> |
+|       </div> |
+|     </section> |
+| |
+|     <section class="money-section section-wrap" id="monnaie"> |
+|       <div class="money-copy"> |
+|         <div class="section-kicker">03 / ÉCONOMIE & MONNAIE</div> |
+|         <h2>La monnaie,<br>elle est créée<br><span>comment ?</span></h2> |
+|         <p>La création monétaire peut sembler abstraite. Pourtant, elle touche au crédit, aux banques et à l’activité économique. Notre objectif : poser les bases clairement, sans raccourci ni jargon inutile.</p> |
+|         <a class="text-link" href="#contact">Proposer une question <span>→</span></a> |
+|       </div> |
+|       <div class="money-facts"> |
+|         <div class="fact-card"><span class="fact-number">01</span><div><h3>Les notions clés</h3><p>Monnaie, crédit, banque centrale : posons les définitions.</p></div></div> |
+|         <div class="fact-card"><span class="fact-number">02</span><div><h3>Les mécanismes</h3><p>Suivons les grandes étapes de la création et de la circulation monétaire.</p></div></div> |
+|         <div class="fact-card"><span class="fact-number">03</span><div><h3>Les débats</h3><p>Repérons les questions discutées et les points de vue différents.</p></div></div> |
+|         <p class="disclaimer">Contenus à visée pédagogique : ils ne constituent pas un conseil financier.</p> |
+|       </div> |
+|     </section> |
+| |
+|     <section class="tools-section" id="outils"> |
+|       <div class="section-wrap"> |
+|         <div class="section-heading"> |
+|           <div><div class="section-kicker">04 / BOÎTE À OUTILS</div><h2>Pour aller du débat<br>à la participation.</h2></div> |
+|           <p>Quelques pistes pour approfondir et agir à votre échelle.</p> |
+|         </div> |
+|         <div class="tools-grid"> |
+|           <article class="tool-item"><span class="tool-icon">↗</span><h3>S’informer</h3><p>Comparer les sources, vérifier une affirmation et comprendre le contexte.</p></article> |
+|           <article class="tool-item"><span class="tool-icon">◎</span><h3>Débattre</h3><p>Écouter les arguments, clarifier les désaccords et dialoguer avec respect.</p></article> |
+|           <article class="tool-item"><span class="tool-icon">✳</span><h3>Participer</h3><p>Découvrir les formes de participation citoyenne près de chez vous.</p></article> |
+|         </div> |
+|       </div> |
+|     </section> |
+| |
+|     <section class="links-section section-wrap" id="liens"> |
+|       <div class="links-heading"> |
+|         <div class="section-kicker">05 / POUR APPROFONDIR</div><h2>Des ressources<br><span>à explorer.</span></h2> |
+|         <p>Retrouvez des ressources utiles pour mieux comprendre les institutions et les enjeux collectifs.</p> |
+|       </div> |
+|       <div class="link-list"> |
+|         <div class="link-row"><span class="link-index">01</span><div><h3>Institutions démocratiques</h3><p>Repères sur les institutions et leur fonctionnement.</p></div><span class="link-soon">À COMPLÉTER</span></div> |
+|         <div class="link-row"><span class="link-index">02</span><div><h3>Éducation aux médias</h3><p>Outils pour évaluer l’information et croiser les sources.</p></div><span class="link-soon">À COMPLÉTER</span></div> |
+|         <div class="link-row"><span class="link-index">03</span><div><h3>Économie & monnaie</h3><p>Ressources pédagogiques pour approfondir les notions économiques.</p></div><span class="link-soon">À COMPLÉTER</span></div> |
+|         <p class="links-note">Les liens externes seront ajoutés après vérification de leur fiabilité et de leur neutralité.</p> |
+|       </div> |
+|     </section> |
+| |
+|     <section class="contact-section" id="contact"> |
+|       <div class="contact-inner section-wrap"> |
+|         <div><div class="section-kicker">06 / CONTACT</div><h2>Une question,<br>une idée, un retour ?</h2><p>Kratosphère se construit aussi grâce aux échanges. Écrivez-nous pour proposer un sujet ou partager une remarque.</p></div> |
+|         <a class="button button-primary contact-button" href="mailto:votre-adresse@example.com">Écrire à Kratosphère <span>↗</span></a> |
+|       </div> |
+|       <p class="contact-small">Remplacez cette adresse par votre adresse e-mail avant la publication du site.</p> |
+|     </section> |
+|   </main> |
+| |
+|   <footer class="site-footer"> |
+|     <a class="brand footer-brand" href="#accueil"><span class="brand-icon">K</span><span>Kratosphère</span></a> |
+|     <p>Comprendre · Débattre · Participer</p> |
+|     <span class="footer-note">Un espace indépendant, sans affiliation politique.</span> |
+|     <span class="copyright">© 2026 Kratosphère</span> |
+|   </footer> |
+| |
+|   <script> |
+|     const toggle = document.querySelector(".menu-toggle"); |
+|     const nav = document.querySelector(".main-nav"); |
+|     toggle.addEventListener("click", () => { |
+|       const isOpen = nav.classList.toggle("is-open"); |
+|       toggle.setAttribute("aria-expanded", isOpen); |
+|     }); |
+|     nav.querySelectorAll("a").forEach((link) => { |
+|       link.addEventListener("click", () => { |
+|         nav.classList.remove("is-open"); |
+|         toggle.setAttribute("aria-expanded", "false"); |
+|       }); |
+|     }); |
+|   </script> |
+| </body> |
+| </html> |
+| ``` |
